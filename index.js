@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:true}))
 
 app.use('/api',router)
 
-
+// Welcome api
 app.get('/',(req,res)=>{
     res.send("Welcome to Mern Authentication ")
 })
